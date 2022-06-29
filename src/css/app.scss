@@ -1,1 +1,51 @@
 // app global css in SCSS form
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;500;600;900&display=swap");
+body {
+  background-color: #f6f7fb;
+  font-family: "prompt";
+  font-size: 18px;
+}
+.brx {
+  border: 1px solid red;
+}
+.font14 {
+  font-size: 14px;
+}
+@media only screen and (min-width: 1023px) {
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .font-content {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 599px) and (max-width: 1023px) {
+  h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+  }
+  .font-content {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+  }
+  .font-content {
+    font-size: 16px;
+  }
+}
